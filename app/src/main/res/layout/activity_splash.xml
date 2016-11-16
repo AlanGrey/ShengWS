@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/splash_ad"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/splash_company"
+        app:failureImage="@color/white"
+        app:failureImageScaleType="centerCrop"
+        app:placeholderImage="@color/white"
+        app:placeholderImageScaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/splash_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_splash_skip"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/splash_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="40dp"
+        android:paddingTop="30dp"
+        android:src="@drawable/ic_splash_company" />
+
+</RelativeLayout>

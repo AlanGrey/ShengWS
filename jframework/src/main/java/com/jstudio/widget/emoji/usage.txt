@@ -1,0 +1,29 @@
+使用要求：
+使用到表情键盘的Activity要在AndroidManifest中指定softInputMode的属性
+    android:windowSoftInputMode="adjustResize|stateHidden"
+
+布局中父布局必须要是LinearLayout，必须指定表情键盘的容器布局，而且必须是LinearLayout
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--
+        .............
+    -->
+    <LinearLayout
+        android:id="@+id/emotions"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/keyboard_height"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+</LinearLayout>
+
+在Activity中初始化得到两个LinearLayout布局后，new出EmotionKeyboard实例，将Activity，父布局，容器布局传入
+    LinearLayout parentLayout = (LinearLayout) findViewById(R.id.list_parent);
+    LinearLayout emoticonsCover = (LinearLayout) findViewById(R.id.footer_for_emoticons);
+    EmotionKeyboard keyboard = new EmotionKeyboard(this, parentLayout, emoticonsCover);
+
+之后便可以对EmotionKeyboard实例进行操作，如显示和解散等

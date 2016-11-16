@@ -1,0 +1,6 @@
+<resources>
+    <string name="crash_occur_toast">抱歉，程序意外出错，即将退出</string>
+    <string name="selected">已选：</string>
+    <string name="preview">预览</string>
+    <string name="confirm">确定</string>
+</resources>

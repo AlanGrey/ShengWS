@@ -1,0 +1,17 @@
+lvp_delayTime:轮播的时间
+lvp_isAutoLoop:是否轮播
+<LoopViewPager
+            android:id="@+id/pagerHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lvp_delayTime="2000"
+            app:lvp_isAutoLoop="true"/>
+
+
+hvp_topOffset:头部补偿距离大小
+<HeaderViewPager
+            android:id="@+id/scrollableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:hvp_topOffset="50dp">

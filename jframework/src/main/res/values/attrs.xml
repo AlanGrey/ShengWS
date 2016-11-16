@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--SwipeBackLayoutStyle-->
+    <declare-styleable name="SwipeBackLayout">
+        <attr name="edge_size" format="dimension" />
+        <attr name="edge_flag">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="all" value="3" />
+        </attr>
+        <attr name="shadow_left" format="reference" />
+        <attr name="shadow_right" format="reference" />
+        <attr name="shadow_bottom" format="reference" />
+    </declare-styleable>
+    <attr name="SwipeBackLayoutStyle" format="reference" />
+
+    <!--CircleImageView-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <!--SlideMenu-->
+    <declare-styleable name="SlideMenu">
+        <attr name="rightPadding" format="dimension" />
+    </declare-styleable>
+    <!--UltimateListView-->
+    <declare-styleable name="UltimateListView">
+        <attr name="dividerHeight" format="dimension" />
+        <attr name="dividerDrawable" format="reference" />
+        <attr name="hasLoadingFooter" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TasksCompletedView">
+        <attr name="radius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="ringColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressImageView">
+        <attr name="ringWidth" format="dimension" />
+        <attr name="ringBorderColor" format="color" />
+        <attr name="ringDefaultColor" format="color" />
+        <attr name="ringMaxProgress" format="integer" />
+        <attr name="ringProgress" format="integer" />
+    </declare-styleable>
+
+    <!--UltimateGridView-->
+    <declare-styleable name="UltimateGridView">
+        <attr name="columnNum" format="integer" />
+        <attr name="columnWidth" format="dimension" />
+
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+    </declare-styleable>
+
+    <!--LikeButton-->
+    <declare-styleable name="LikeButton">
+        <attr name="icon_type" format="string" />
+        <attr name="icon_size" format="dimension|reference" />
+        <attr name="like_drawable" format="reference" />
+        <attr name="unlike_drawable" format="reference" />
+        <attr name="dots_primary_color" format="color|reference" />
+        <attr name="dots_secondary_color" format="color|reference" />
+        <attr name="circle_start_color" format="color|reference" />
+        <attr name="circle_end_color" format="color|reference" />
+        <attr name="liked" format="boolean" />
+        <attr name="enabled" format="boolean" />
+        <attr name="anim_scale_factor" format="float" />
+    </declare-styleable>
+
+    <!--TextProgressBar-->
+    <declare-styleable name="TextProgressBar">
+        <attr name="before_color" format="color" />
+        <attr name="after_color" format="color" />
+        <attr name="before_height" format="dimension" />
+        <attr name="after_height" format="dimension" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="text_offset" format="dimension" />
+    </declare-styleable>
+
+    <!-- CircleIndicator -->
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_normalRadius" format="dimension" />
+        <attr name="ci_normalRadiusColor" format="color" />
+        <attr name="ci_selectedRadius" format="dimension" />
+        <attr name="ci_selectedRadiusColor" format="color" />
+        <attr name="ci_dotPadding" format="dimension" />
+        <attr name="ci_isStroke" format="boolean" />
+        <attr name="ci_normalStrokeWidth" format="dimension" />
+        <attr name="ci_isBlink" format="boolean" />
+    </declare-styleable>
+
+    <!-- HeaderViewPager -->
+    <declare-styleable name="HeaderViewPager">
+        <attr name="hvp_topOffset" format="dimension" />
+    </declare-styleable>
+
+    <!-- PagerSlidingTabStrip -->
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+
+    <!-- LoopViewPager 自动滚动 -->
+    <declare-styleable name="LoopViewPager">
+        <attr name="lvp_isAutoLoop" format="boolean" />
+        <attr name="lvp_delayTime" format="integer" />
+    </declare-styleable>
+
+
+    <!-- NumberProgressBar -->
+    <declare-styleable name="NumberProgressBar">
+        <attr name="progress_current" format="integer" />
+        <attr name="progress_max" format="integer" />
+        <attr name="progress_unreached_color" format="color" />
+        <attr name="progress_reached_color" format="color" />
+        <attr name="progress_reached_bar_height" format="dimension" />
+        <attr name="progress_unreached_bar_height" format="dimension" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_offset" format="dimension" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- SimpleViewBehavior -->
+    <declare-styleable name="SimpleViewBehavior">
+        <attr name="svb_dependOn" format="reference"/>
+        <attr name="svb_dependType">
+            <enum name="height" value="0"/>
+            <enum name="width" value="1"/>
+            <enum name="x" value="2"/>
+            <enum name="y" value="3"/>
+        </attr>
+        <attr name="svb_dependTargetX" format="reference|dimension"/>
+        <attr name="svb_dependTargetY" format="reference|dimension"/>
+        <attr name="svb_dependTargetWidth" format="reference|dimension"/>
+        <attr name="svb_dependTargetHeight" format="reference|dimension"/>
+        <attr name="svb_targetX" format="reference|dimension"/>
+        <attr name="svb_targetY" format="reference|dimension"/>
+        <attr name="svb_targetWidth" format="reference|dimension"/>
+        <attr name="svb_targetHeight" format="reference|dimension"/>
+        <attr name="svb_targetBackgroundColor" format="reference|color"/>
+        <attr name="svb_targetAlpha" format="float"/>
+        <attr name="svb_targetRotateX" format="float"/>
+        <attr name="svb_targetRotateY" format="float"/>
+        <attr name="svb_animation" format="reference"/>
+    </declare-styleable>
+
+
+
+</resources>

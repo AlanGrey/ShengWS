@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6cdc70</color>
+    <color name="colorPrimaryDark">#58b058</color>
+    <color name="colorAccent">#6cdc70</color>
+    <color name="colorControlHighlight">#d6d6d6</color>
+
+
+    <color name="theme_color">#6cdc70</color>
+    <color name="theme_dark_color">#58b058</color>
+    <color name="dialogAccent">#fcab64</color>
+
+
+    <color name="grey">#ffbbbbbb</color>
+    <color name="white">#ffffffff</color>
+
+    <!-- button -->
+    <color name="button_null">#d4d4d4</color>
+
+    <color name="background_color_one">#e9e9e9</color>
+    <color name="under_grey_line">#989898</color>
+    <color name="under_light_grey_line">#cbcbcb</color>
+
+    <!-- 字体 -->
+    <color name="hint_tip_grey">#b3b3b3</color>
+    <color name="hint_tip_red">#dd1111</color>
+    <color name="tf_black_3d">#333333</color>
+    <color name="tf_black_6d">#666666</color>
+    <color name="tf_black_9d">#999999</color>
+    <color name="tf_green_4b7">#44bb77</color>
+
+    <!-- tint icon color -->
+    <color name="tint_theme">#6cdc70</color>
+    <color name="tint_grey">#989898</color>
+</resources>

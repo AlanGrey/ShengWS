@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_16dp"
+        android:layout_marginLeft="@dimen/margin_30dp"
+        android:layout_marginRight="@dimen/margin_30dp"
+        android:layout_marginTop="@dimen/margin_16dp"
+        android:background="@drawable/layout_rad_white_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/single_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_10dp"
+            android:paddingLeft="@dimen/padding_20dp"
+            android:paddingRight="@dimen/padding_20dp"
+            android:paddingTop="@dimen/padding_10dp"
+            android:textColor="@color/tf_black_3d"
+            android:textSize="16sp"
+            tools:text="地区选择" />
+
+        <ListView
+            android:id="@+id/single_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@color/transparent"
+            android:dividerHeight="0dp"
+            android:scrollbars="none" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/under_grey_line" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp">
+
+            <Button
+                android:id="@+id/single_cancel"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_rad_theme_selector"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

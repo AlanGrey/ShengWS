@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- padding常规边距-->
+    <dimen name="padding_3dp">3dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_7dp">7dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_30dp">30dp</dimen>
+    <dimen name="padding_40dp">40dp</dimen>
+    <dimen name="padding_50dp">50dp</dimen>
+
+    <!-- margin常规边距-->
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_3dp">3dp</dimen>
+    <dimen name="margin_7dp">7dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+
+    <!-- blank常规数值-->
+    <dimen name="blank_7dp">7dp</dimen>
+    <dimen name="blank_10dp">10dp</dimen>
+    <dimen name="blank_16dp">16dp</dimen>
+    <dimen name="blank_30dp">30dp</dimen>
+</resources>

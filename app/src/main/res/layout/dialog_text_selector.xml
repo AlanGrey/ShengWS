@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/layout_rad_white_bg"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/web_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fadingEdge="none"
+            android:paddingBottom="@dimen/padding_10dp"
+            android:paddingTop="@dimen/padding_10dp"
+            android:scrollbars="none"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/text_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding_10dp"
+            android:textColor="@color/tf_black_3d"
+            android:textSize="14sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:paddingBottom="@dimen/padding_10dp"
+            android:paddingLeft="@dimen/padding_10dp"
+            android:paddingRight="@dimen/padding_10dp"
+            android:paddingTop="@dimen/padding_5dp">
+
+            <Button
+                android:id="@+id/agree"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_square_theme_dark_bg"
+                android:gravity="center"
+                android:text="@string/agree"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/disagree"
+                android:layout_width="60dp"
+                android:layout_height="36dp"
+                android:layout_marginRight="@dimen/margin_10dp"
+                android:layout_toLeftOf="@+id/agree"
+                android:background="@drawable/btn_square_light_grey_bg"
+                android:gravity="center"
+                android:text="@string/disagree"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

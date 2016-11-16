@@ -1,0 +1,9 @@
+<resources>
+    <string name="crash_occur_toast">Something is broken, app need to quit</string>
+    <string name="confirm">Confirm</string>
+    <string name="preview">Preview</string>
+    <string name="selected">Selected:</string>
+
+
+    <string name="simple_view_behavior">com.jstudio.animation.SimpleViewBehavior</string>
+</resources>

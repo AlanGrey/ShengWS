@@ -1,0 +1,24 @@
+1、新建一个Activity在里面加载Fragment
+
+    private AlbumFragment mFragment;
+    private LinearLayout mParent;
+
+    ..........
+
+    mParent = (LinearLayout) findViewById(R.id.parent);
+    mFragment = new AlbumFragment();
+    Bundle bundle = new Bundle();
+    bundle.putInt(AlbumFragment.INTENT_MAX_NUM, 6); //设置最大可选图片数
+    mFragment.setArguments(bundle);
+    mFragmentManager.beginTransaction().add(R.id.parent, mFragment).commit();
+
+2、在其他地方启动此新建Activity
+    startActivityForResult(new Intent(this, PhotoSelectorActivity.class), 1);
+
+3、在App的manifest中写入LocalPicPreviewActivity以实现预览功能
+    <activity android:name="com.jstudio.widget.photoselector.LocalPicPreviewActivity"/>
+
+4、书写onActivityResult接收返回的图片List<Uri>
+    if(requestCode == 1 && resultCode == RESULT_OK){
+        List<Uri> images = data.getParcelableArrayListExtra(AlbumFragment.SELECTED_PIC);
+    }

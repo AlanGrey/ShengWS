@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="province">
+        <item name="guangdong">广东</item>
+    </array>
+    <array name="city">
+        <item name="shenzhen">深圳</item>
+    </array>
+    <array name="area">
+        <item name="shenzhen">南山</item>
+    </array>
+</resources>

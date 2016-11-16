@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Used in toolbar-->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!-- Used in toolbar-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Used in toolbar-->
+    <style name="AppTheme.TextLay" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <!--ToolBar样式-->
+    <style name="ToolbarTheme.TextLay" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- ToolBar菜单样式 -->
+    <style name="ToolbarTheme.Menu" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- AlertDialogTheme -->
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <!--item RadioButton or CheckBox color-->
+        <!--<item name="colorControlNormal">@android:color/holo_red_dark</item>-->
+        <!--<item name="colorControlActivated">@color/dialogAccent</item>-->
+        <!--item text color-->
+        <!--<item name="textColorAlertDialogListItem">@android:color/holo_red_light</item>-->
+        <!--buttons color  字体按钮颜色-->
+        <item name="colorAccent">@color/white</item>
+        <!--name and message color  消息的颜色-->
+        <!--<item name="android:textColorPrimary">@android:color/holo_blue_bright</item>-->
+        <!--dialog background 背景颜色-->
+        <!--<item name="android:windowBackground">@color/grey</item>-->
+    </style>
+
+    <style name="FrescoCommonStyle">
+        <item name="placeholderImageScaleType">centerCrop</item>
+        <item name="actualImageScaleType">centerCrop</item>
+    </style>
+
+    <style name="FrescoAccountStyle" parent="FrescoCommonStyle">
+        <item name="placeholderImage">@drawable/ic_launcher</item>
+        <item name="roundAsCircle">true</item>
+        <item name="roundingBorderColor">@color/white</item>
+        <item name="roundingBorderWidth">1dp</item>
+    </style>
+
+</resources>

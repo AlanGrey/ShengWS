@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">ShengWS</string>
+
+    <!-- 网络错误-->
+    <string name="is_loading">正在加载...请稍后...</string>
+    <string name="is_doing">正在操作...请稍后...</string>
+    <string name="network_error">请检测网络设置状态</string>
+    <string name="data_error">数据有误,请稍后在试试</string>
+    <string name="bundle_error">数据有误,即将退出界面</string>
+    <string name="app_token_error">Token为空,请稍后在试试</string>
+
+    <!--common-->
+    <string name="next">下一步</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+    <string name="complete">完成</string>
+    <string name="select_illness">请选择病情</string>
+
+    <!-- login -->
+    <string name="guide_start">立即体验</string>
+    <string name="login_mobile_hint">请输入手机号码</string>
+    <string name="login_password_hint">请输入登录密码</string>
+    <string name="login">登录</string>
+    <string name="login_forget">忘记密码</string>
+    <string name="register">注册</string>
+    <string name="login_wechat">微信帐号登录</string>
+    <string name="login_qq">QQ帐号登录</string>
+    <string name="login_fast">快捷登录</string>
+    <string name="login_sws">登录圣卫士</string>
+    <string name="login_mobile_prefix">+86</string>
+    <string name="login_agreement">已阅读并同意条款注册协议</string>
+    <string name="login_register">用户注册</string>
+    <string name="login_code">请输入短信验证码</string>
+    <string name="login_sex">性别</string>
+    <string name="login_user_name">名称</string>
+    <string name="login_user_name_hint">请输入名称</string>
+    <string name="login_nick_name">昵称</string>
+    <string name="login_nick_name_hint">请输入昵称</string>
+    <string name="login_user_birthday">生日</string>
+    <string name="login_user_birthday_hint">请选择日期</string>
+    <string name="login_address">地址</string>
+    <string name="login_address_hint">请选择地区</string>
+    <string name="login_condition">病情</string>
+    <string name="login_condition_hint">请选择病情</string>
+    <string name="login_province">省份：</string>
+    <string name="login_city">城市：</string>
+    <string name="is_login">正在登录...请稍候...</string>
+
+
+</resources>
